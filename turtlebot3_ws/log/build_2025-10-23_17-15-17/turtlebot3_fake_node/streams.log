@@ -1,0 +1,69 @@
+[0.343s] Invoking command in '/home/chalana/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/chalana/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chalana/turtlebot3_ws/install
+[3.407s] -- The C compiler identification is GNU 13.3.0
+[5.476s] -- The CXX compiler identification is GNU 13.3.0
+[5.990s] -- Detecting C compiler ABI info
+[7.501s] -- Detecting C compiler ABI info - done
+[7.706s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.714s] -- Detecting C compile features
+[7.735s] -- Detecting C compile features - done
+[7.930s] -- Detecting CXX compiler ABI info
+[11.034s] -- Detecting CXX compiler ABI info - done
+[11.644s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.662s] -- Detecting CXX compile features
+[11.683s] -- Detecting CXX compile features - done
+[11.882s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[16.219s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[18.715s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[20.368s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[22.622s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[23.272s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[24.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[25.087s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[26.782s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[28.313s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[30.158s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[30.319s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[32.675s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[33.657s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[34.199s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[37.145s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[38.134s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[38.264s] -- Found tf2_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[40.237s] -- Found turtlebot3_msgs: 2.4.0 (/opt/ros/jazzy/share/turtlebot3_msgs/cmake)
+[44.056s] -- Configuring done (43.4s)
+[44.569s] -- Generating done (0.3s)
+[44.713s] -- Build files have been written to: /home/chalana/turtlebot3_ws/build/turtlebot3_fake_node
+[45.013s] Invoked command in '/home/chalana/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/chalana/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chalana/turtlebot3_ws/install
+[45.023s] Invoking command in '/home/chalana/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chalana/turtlebot3_ws/build/turtlebot3_fake_node -- -j1 -l1
+[45.828s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[250.866s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[259.983s] [100%] Built target turtlebot3_fake_node
+[260.068s] Invoked command in '/home/chalana/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chalana/turtlebot3_ws/build/turtlebot3_fake_node -- -j1 -l1
+[260.077s] Invoking command in '/home/chalana/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chalana/turtlebot3_ws/build/turtlebot3_fake_node
+[260.215s] -- Install configuration: ""
+[260.230s] -- Execute custom install script
+[260.245s] -- Symlinking: /home/chalana/turtlebot3_ws/install/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[260.488s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[260.594s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[260.755s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/param/burger.yaml
+[260.965s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/param/waffle.yaml
+[261.065s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[261.110s] -- Symlinking: /home/chalana/turtlebot3_ws/install/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[261.189s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[261.384s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[261.562s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[261.741s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[262.032s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/environment/path.sh
+[262.298s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/environment/path.dsv
+[262.555s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/local_setup.bash
+[262.751s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/local_setup.sh
+[263.019s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/local_setup.zsh
+[263.274s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/local_setup.dsv
+[263.453s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/package.dsv
+[263.654s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[263.828s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[264.007s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[264.175s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[264.356s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[264.553s] -- Symlinking: /home/chalana/turtlebot3_ws/install/share/turtlebot3_fake_node/package.xml
+[264.754s] Invoked command in '/home/chalana/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chalana/turtlebot3_ws/build/turtlebot3_fake_node

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="tb3_maze_world">
+    <include><uri>model://sun</uri></include>
+    <include><uri>model://ground_plane</uri></include>
+
+    <!-- Example segments; duplicate & move by changing pose x y yaw -->
+    <include><uri>model://wall_050m</uri><name>h0</name><pose>0 0 0 0 0 0</pose></include>
+    <include><uri>model://wall_050m</uri><name>h1</name><pose>1.0 0 0 0 0 0</pose></include>
+    <include><uri>model://wall_050m</uri><name>v0</name><pose>0 0 0 0 0 1.5708</pose></include>
+
+    <plugin name="gazebo_ros_state" filename="libgazebo_ros_init.so"/>
+    <plugin name="gazebo_ros_factory" filename="libgazebo_ros_factory.so"/>
+  </world>
+</sdf>
